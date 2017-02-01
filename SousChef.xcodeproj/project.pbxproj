@@ -7,8 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E1F22E51E4165F700F77EC8 /* EmailSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F22E41E4165F700F77EC8 /* EmailSignupVC.swift */; };
+		3E1F22E81E41689000F77EC8 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F22E61E41689000F77EC8 /* TestVC.swift */; };
+		3E1F22E91E41689000F77EC8 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22E71E41689000F77EC8 /* TestVC.xib */; };
+		3E1F22F81E416BC200F77EC8 /* SIMPLIFICA License.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22F51E416BC200F77EC8 /* SIMPLIFICA License.pdf */; };
+		3E1F22F91E416BC200F77EC8 /* SIMPLIFICA Preview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22F61E416BC200F77EC8 /* SIMPLIFICA Preview.pdf */; };
+		3E1F22FA1E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22F71E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf */; };
 		3E2A25121E4143B600EE3F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25111E4143B600EE3F92 /* AppDelegate.swift */; };
-		3E2A25141E4143B600EE3F92 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25131E4143B600EE3F92 /* ViewController.swift */; };
+		3E2A25141E4143B600EE3F92 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25131E4143B600EE3F92 /* SignupVC.swift */; };
 		3E2A25171E4143B600EE3F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A25151E4143B600EE3F92 /* Main.storyboard */; };
 		3E2A251A1E4143B600EE3F92 /* SousChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25181E4143B600EE3F92 /* SousChef.xcdatamodeld */; };
 		3E2A251C1E4143B600EE3F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A251B1E4143B600EE3F92 /* Assets.xcassets */; };
@@ -16,9 +22,15 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E1F22E41E4165F700F77EC8 /* EmailSignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailSignupVC.swift; sourceTree = "<group>"; };
+		3E1F22E61E41689000F77EC8 /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
+		3E1F22E71E41689000F77EC8 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		3E1F22F51E416BC200F77EC8 /* SIMPLIFICA License.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SIMPLIFICA License.pdf"; sourceTree = "<group>"; };
+		3E1F22F61E416BC200F77EC8 /* SIMPLIFICA Preview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SIMPLIFICA Preview.pdf"; sourceTree = "<group>"; };
+		3E1F22F71E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SIMPLIFICA Typeface.ttf"; sourceTree = "<group>"; };
 		3E2A250E1E4143B600EE3F92 /* SousChef.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SousChef.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E2A25111E4143B600EE3F92 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		3E2A25131E4143B600EE3F92 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3E2A25131E4143B600EE3F92 /* SignupVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupVC.swift; sourceTree = "<group>"; };
 		3E2A25161E4143B600EE3F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3E2A25191E4143B600EE3F92 /* SousChef.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SousChef.xcdatamodel; sourceTree = "<group>"; };
 		3E2A251B1E4143B600EE3F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -37,6 +49,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E1F22F41E416B2700F77EC8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				3E1F22F51E416BC200F77EC8 /* SIMPLIFICA License.pdf */,
+				3E1F22F61E416BC200F77EC8 /* SIMPLIFICA Preview.pdf */,
+				3E1F22F71E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		3E2A25051E4143B600EE3F92 = {
 			isa = PBXGroup;
 			children = (
@@ -56,13 +78,17 @@
 		3E2A25101E4143B600EE3F92 /* SousChef */ = {
 			isa = PBXGroup;
 			children = (
+				3E1F22F41E416B2700F77EC8 /* Resources */,
 				3E2A25111E4143B600EE3F92 /* AppDelegate.swift */,
-				3E2A25131E4143B600EE3F92 /* ViewController.swift */,
+				3E2A25131E4143B600EE3F92 /* SignupVC.swift */,
 				3E2A25151E4143B600EE3F92 /* Main.storyboard */,
 				3E2A251B1E4143B600EE3F92 /* Assets.xcassets */,
 				3E2A251D1E4143B600EE3F92 /* LaunchScreen.storyboard */,
 				3E2A25201E4143B600EE3F92 /* Info.plist */,
 				3E2A25181E4143B600EE3F92 /* SousChef.xcdatamodeld */,
+				3E1F22E41E4165F700F77EC8 /* EmailSignupVC.swift */,
+				3E1F22E61E41689000F77EC8 /* TestVC.swift */,
+				3E1F22E71E41689000F77EC8 /* TestVC.xib */,
 			);
 			path = SousChef;
 			sourceTree = "<group>";
@@ -99,6 +125,7 @@
 				TargetAttributes = {
 					3E2A250D1E4143B600EE3F92 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = AH6EB8WJNY;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -126,9 +153,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1F22E91E41689000F77EC8 /* TestVC.xib in Resources */,
+				3E1F22FA1E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf in Resources */,
 				3E2A251F1E4143B600EE3F92 /* LaunchScreen.storyboard in Resources */,
+				3E1F22F81E416BC200F77EC8 /* SIMPLIFICA License.pdf in Resources */,
 				3E2A251C1E4143B600EE3F92 /* Assets.xcassets in Resources */,
 				3E2A25171E4143B600EE3F92 /* Main.storyboard in Resources */,
+				3E1F22F91E416BC200F77EC8 /* SIMPLIFICA Preview.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,8 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E1F22E81E41689000F77EC8 /* TestVC.swift in Sources */,
 				3E2A251A1E4143B600EE3F92 /* SousChef.xcdatamodeld in Sources */,
-				3E2A25141E4143B600EE3F92 /* ViewController.swift in Sources */,
+				3E1F22E51E4165F700F77EC8 /* EmailSignupVC.swift in Sources */,
+				3E2A25141E4143B600EE3F92 /* SignupVC.swift in Sources */,
 				3E2A25121E4143B600EE3F92 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -262,6 +295,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AH6EB8WJNY;
 				INFOPLIST_FILE = SousChef/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kellymorrison.SousChef;
@@ -274,6 +311,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = AH6EB8WJNY;
 				INFOPLIST_FILE = SousChef/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kellymorrison.SousChef;
@@ -301,6 +342,7 @@
 				3E2A25251E4143B600EE3F92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
