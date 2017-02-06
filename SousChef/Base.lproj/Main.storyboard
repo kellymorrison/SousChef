@@ -79,10 +79,10 @@
             </objects>
             <point key="canvasLocation" x="3.75" y="36.971830985915496"/>
         </scene>
-        <!--TestVC-->
+        <!--HomeVC-->
         <scene sceneID="7My-2y-uSz">
             <objects>
-                <viewController id="HwG-fw-7iE" userLabel="TestVC" customClass="TestVC" customModule="SousChef" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="HomeVC" id="HwG-fw-7iE" userLabel="HomeVC" customClass="HomeVC" customModule="SousChef" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="uRF-qT-SMu"/>
                         <viewControllerLayoutGuide type="bottom" id="C3v-2u-taX"/>
@@ -91,18 +91,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEe-VA-a5K">
-                                <rect key="frame" x="164" y="318" width="46" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="TEe-VA-a5K">
+                                <rect key="frame" x="137" y="269" width="46" height="30"/>
                                 <state key="normal" title="Button"/>
                             </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="TEe-VA-a5K" firstAttribute="centerY" secondItem="ST7-ci-ZZ4" secondAttribute="centerY" id="DD1-x2-Mib"/>
+                            <constraint firstItem="TEe-VA-a5K" firstAttribute="centerX" secondItem="ST7-ci-ZZ4" secondAttribute="centerX" id="GFn-zu-hEm"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xyg-GS-m2a" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="137" y="753"/>
+            <point key="canvasLocation" x="136.875" y="752.11267605633805"/>
         </scene>
         <!--EmailSignupVC-->
         <scene sceneID="Mhj-aW-Xz7">

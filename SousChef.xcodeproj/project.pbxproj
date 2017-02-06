@@ -8,23 +8,29 @@
 
 /* Begin PBXBuildFile section */
 		3E1F22E51E4165F700F77EC8 /* EmailSignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F22E41E4165F700F77EC8 /* EmailSignupVC.swift */; };
-		3E1F22E81E41689000F77EC8 /* TestVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F22E61E41689000F77EC8 /* TestVC.swift */; };
-		3E1F22E91E41689000F77EC8 /* TestVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22E71E41689000F77EC8 /* TestVC.xib */; };
+		3E1F22E81E41689000F77EC8 /* HomeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E1F22E61E41689000F77EC8 /* HomeVC.swift */; };
+		3E1F22E91E41689000F77EC8 /* HomeVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22E71E41689000F77EC8 /* HomeVC.xib */; };
 		3E1F22F81E416BC200F77EC8 /* SIMPLIFICA License.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22F51E416BC200F77EC8 /* SIMPLIFICA License.pdf */; };
 		3E1F22F91E416BC200F77EC8 /* SIMPLIFICA Preview.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22F61E416BC200F77EC8 /* SIMPLIFICA Preview.pdf */; };
 		3E1F22FA1E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E1F22F71E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf */; };
 		3E2A25121E4143B600EE3F92 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25111E4143B600EE3F92 /* AppDelegate.swift */; };
 		3E2A25141E4143B600EE3F92 /* SignupVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25131E4143B600EE3F92 /* SignupVC.swift */; };
-		3E2A25171E4143B600EE3F92 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A25151E4143B600EE3F92 /* Main.storyboard */; };
 		3E2A251A1E4143B600EE3F92 /* SousChef.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 3E2A25181E4143B600EE3F92 /* SousChef.xcdatamodeld */; };
 		3E2A251C1E4143B600EE3F92 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A251B1E4143B600EE3F92 /* Assets.xcassets */; };
 		3E2A251F1E4143B600EE3F92 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A251D1E4143B600EE3F92 /* LaunchScreen.storyboard */; };
+		3E457C741E43F09B005277CF /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E457C731E43F09B005277CF /* GoogleService-Info.plist */; };
+		3ED10FFB1E4916440001145F /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED10FFA1E4916440001145F /* Bolts.framework */; };
+		3ED10FFD1E4916520001145F /* FBSDKCoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED10FFC1E4916520001145F /* FBSDKCoreKit.framework */; };
+		3ED10FFF1E4916590001145F /* FBSDKLoginKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED10FFE1E4916590001145F /* FBSDKLoginKit.framework */; };
+		3ED110011E4916730001145F /* FBSDKShareKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3ED110001E4916730001145F /* FBSDKShareKit.framework */; };
+		3ED110031E4919240001145F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3E2A25151E4143B600EE3F92 /* Main.storyboard */; };
+		9F40316617BCE0072DCBE6EF /* Pods_SousChef.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 797D68E33616C17CE264AAD0 /* Pods_SousChef.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		3E1F22E41E4165F700F77EC8 /* EmailSignupVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmailSignupVC.swift; sourceTree = "<group>"; };
-		3E1F22E61E41689000F77EC8 /* TestVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestVC.swift; sourceTree = "<group>"; };
-		3E1F22E71E41689000F77EC8 /* TestVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TestVC.xib; sourceTree = "<group>"; };
+		3E1F22E61E41689000F77EC8 /* HomeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeVC.swift; sourceTree = "<group>"; };
+		3E1F22E71E41689000F77EC8 /* HomeVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HomeVC.xib; sourceTree = "<group>"; };
 		3E1F22F51E416BC200F77EC8 /* SIMPLIFICA License.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SIMPLIFICA License.pdf"; sourceTree = "<group>"; };
 		3E1F22F61E416BC200F77EC8 /* SIMPLIFICA Preview.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = "SIMPLIFICA Preview.pdf"; sourceTree = "<group>"; };
 		3E1F22F71E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "SIMPLIFICA Typeface.ttf"; sourceTree = "<group>"; };
@@ -36,6 +42,14 @@
 		3E2A251B1E4143B600EE3F92 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3E2A251E1E4143B600EE3F92 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3E2A25201E4143B600EE3F92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E457C731E43F09B005277CF /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3ED10FFA1E4916440001145F /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Bolts.framework; path = ../FacebookSDK/Bolts.framework; sourceTree = "<group>"; };
+		3ED10FFC1E4916520001145F /* FBSDKCoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKCoreKit.framework; path = ../FacebookSDK/FBSDKCoreKit.framework; sourceTree = "<group>"; };
+		3ED10FFE1E4916590001145F /* FBSDKLoginKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKLoginKit.framework; path = ../FacebookSDK/FBSDKLoginKit.framework; sourceTree = "<group>"; };
+		3ED110001E4916730001145F /* FBSDKShareKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = FBSDKShareKit.framework; path = ../FacebookSDK/FBSDKShareKit.framework; sourceTree = "<group>"; };
+		4ACDF28967893E9D89F1E35E /* Pods-SousChef.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SousChef.release.xcconfig"; path = "Pods/Target Support Files/Pods-SousChef/Pods-SousChef.release.xcconfig"; sourceTree = "<group>"; };
+		4EFB530F433D91B2AFCE8479 /* Pods-SousChef.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SousChef.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SousChef/Pods-SousChef.debug.xcconfig"; sourceTree = "<group>"; };
+		797D68E33616C17CE264AAD0 /* Pods_SousChef.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SousChef.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,6 +57,11 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9F40316617BCE0072DCBE6EF /* Pods_SousChef.framework in Frameworks */,
+				3ED10FFD1E4916520001145F /* FBSDKCoreKit.framework in Frameworks */,
+				3ED110011E4916730001145F /* FBSDKShareKit.framework in Frameworks */,
+				3ED10FFF1E4916590001145F /* FBSDKLoginKit.framework in Frameworks */,
+				3ED10FFB1E4916440001145F /* Bolts.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -64,6 +83,8 @@
 			children = (
 				3E2A25101E4143B600EE3F92 /* SousChef */,
 				3E2A250F1E4143B600EE3F92 /* Products */,
+				D6E2141F37E8EDB730DD048C /* Pods */,
+				B3806A3680F209BCA14668EC /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +99,7 @@
 		3E2A25101E4143B600EE3F92 /* SousChef */ = {
 			isa = PBXGroup;
 			children = (
+				3E457C731E43F09B005277CF /* GoogleService-Info.plist */,
 				3E1F22F41E416B2700F77EC8 /* Resources */,
 				3E2A25111E4143B600EE3F92 /* AppDelegate.swift */,
 				3E2A25131E4143B600EE3F92 /* SignupVC.swift */,
@@ -87,10 +109,31 @@
 				3E2A25201E4143B600EE3F92 /* Info.plist */,
 				3E2A25181E4143B600EE3F92 /* SousChef.xcdatamodeld */,
 				3E1F22E41E4165F700F77EC8 /* EmailSignupVC.swift */,
-				3E1F22E61E41689000F77EC8 /* TestVC.swift */,
-				3E1F22E71E41689000F77EC8 /* TestVC.xib */,
+				3E1F22E61E41689000F77EC8 /* HomeVC.swift */,
+				3E1F22E71E41689000F77EC8 /* HomeVC.xib */,
 			);
 			path = SousChef;
+			sourceTree = "<group>";
+		};
+		B3806A3680F209BCA14668EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3ED110001E4916730001145F /* FBSDKShareKit.framework */,
+				3ED10FFE1E4916590001145F /* FBSDKLoginKit.framework */,
+				3ED10FFC1E4916520001145F /* FBSDKCoreKit.framework */,
+				3ED10FFA1E4916440001145F /* Bolts.framework */,
+				797D68E33616C17CE264AAD0 /* Pods_SousChef.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D6E2141F37E8EDB730DD048C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4EFB530F433D91B2AFCE8479 /* Pods-SousChef.debug.xcconfig */,
+				4ACDF28967893E9D89F1E35E /* Pods-SousChef.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -100,9 +143,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E2A25231E4143B600EE3F92 /* Build configuration list for PBXNativeTarget "SousChef" */;
 			buildPhases = (
+				8D2B7143CAB3B81A9576B1FF /* [CP] Check Pods Manifest.lock */,
 				3E2A250A1E4143B600EE3F92 /* Sources */,
 				3E2A250B1E4143B600EE3F92 /* Frameworks */,
 				3E2A250C1E4143B600EE3F92 /* Resources */,
+				F942850C91D81584ED5C540C /* [CP] Embed Pods Frameworks */,
+				D8930D9CA4C48ECB019FF305 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -153,24 +199,73 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1F22E91E41689000F77EC8 /* TestVC.xib in Resources */,
+				3E1F22E91E41689000F77EC8 /* HomeVC.xib in Resources */,
+				3E457C741E43F09B005277CF /* GoogleService-Info.plist in Resources */,
 				3E1F22FA1E416BC200F77EC8 /* SIMPLIFICA Typeface.ttf in Resources */,
+				3ED110031E4919240001145F /* Main.storyboard in Resources */,
 				3E2A251F1E4143B600EE3F92 /* LaunchScreen.storyboard in Resources */,
 				3E1F22F81E416BC200F77EC8 /* SIMPLIFICA License.pdf in Resources */,
 				3E2A251C1E4143B600EE3F92 /* Assets.xcassets in Resources */,
-				3E2A25171E4143B600EE3F92 /* Main.storyboard in Resources */,
 				3E1F22F91E416BC200F77EC8 /* SIMPLIFICA Preview.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8D2B7143CAB3B81A9576B1FF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D8930D9CA4C48ECB019FF305 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SousChef/Pods-SousChef-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F942850C91D81584ED5C540C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SousChef/Pods-SousChef-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E2A250A1E4143B600EE3F92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3E1F22E81E41689000F77EC8 /* TestVC.swift in Sources */,
+				3E1F22E81E41689000F77EC8 /* HomeVC.swift in Sources */,
 				3E2A251A1E4143B600EE3F92 /* SousChef.xcdatamodeld in Sources */,
 				3E1F22E51E4165F700F77EC8 /* EmailSignupVC.swift in Sources */,
 				3E2A25141E4143B600EE3F92 /* SignupVC.swift in Sources */,
@@ -293,12 +388,18 @@
 		};
 		3E2A25241E4143B600EE3F92 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4EFB530F433D91B2AFCE8479 /* Pods-SousChef.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = AH6EB8WJNY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/kellymorrison/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = SousChef/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kellymorrison.SousChef;
@@ -309,12 +410,18 @@
 		};
 		3E2A25251E4143B600EE3F92 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4ACDF28967893E9D89F1E35E /* Pods-SousChef.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=*]" = "iPhone Developer";
 				DEVELOPMENT_TEAM = AH6EB8WJNY;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+					/Users/kellymorrison/Documents/FacebookSDK,
+				);
 				INFOPLIST_FILE = SousChef/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.kellymorrison.SousChef;
